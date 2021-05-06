@@ -6,13 +6,15 @@ import os
 
 import telegram
 
-bot = telegram.Bot(token = "INSERT_API_KEY_HERE")
-chat_id = INSERT_CHAT_ID_HERE;
+bot = telegram.Bot(token = "")
+chat_id = 0;
 
 def get_bb_slot(url):
     chromedriver_autoinstaller.install() 
-    
-    driver = webdriver.Chrome()
+    options = webdriver.ChromeOptions()
+    options.add_argument('--ignore-certificate-errors')
+    options.add_argument('--ignore-ssl-errors')
+    driver = webdriver.Chrome(chrome_options =options)
     driver.get(url)
     print("Please login using OTP and then wait for a while.")
     time.sleep(60)
