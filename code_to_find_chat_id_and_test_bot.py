@@ -1,6 +1,6 @@
 import telegram
 
-bot = telegram.Bot(token = "")
+bot = telegram.Bot(token = "INSERT BOT TOKEN HERE")
 
 updates = []
 while not updates:

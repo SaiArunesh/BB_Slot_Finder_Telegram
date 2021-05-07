@@ -6,8 +6,8 @@ import os
 
 import telegram
 
-bot = telegram.Bot(token = "")
-chat_id = 0;
+bot = telegram.Bot(token = "INSERT BOT TOKEN HERE")
+chat_id = '''INSERT CHAT ID as INTEGER HERE ''';
 
 def get_bb_slot(url):
     chromedriver_autoinstaller.install() 
