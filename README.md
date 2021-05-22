@@ -24,7 +24,7 @@ Running the main code:
 
 Quick Troubleshooting Steps:  
 
- - Send ```/start``` to bot to make sure it is active before running **BB_Slot.py**
+ - Send ```/start``` to bot to make sure it is active before running **BB_Slot.py** or **code_to_find_chat_id_and_test_bot.py**. Bot should be sent ```/start``` before using the code
 
  - To check if bot is working you can use **code_to_find_chat_id_and_test_bot.py**. It should return the chat ID.
 
