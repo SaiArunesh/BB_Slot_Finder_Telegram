@@ -9,11 +9,14 @@ pip install -r requirements
 ```
 2. Requires Initial One Time Setup of Telegram Bot Visit https://sendpulse.com/knowledge-base/chatbot/create-telegram-chatbot for instructions
 3. Bot Token (you can get from ```@BotFather```) and Chat ID is required for this program to function
-4. Paste your token and run **code_to_find_chat_id_and_test_bot.py**
+4. Paste your token 
 5. Send ```/start``` to the bot from your Telegram Client
-6. Bot will reply with your chat ID
+6. Run **code_to_find_chat_id_and_test_bot.py**
+7. Send any message to the bot from your Telegram Client
+8. Bot will reply with your chat ID
 
 Running the main code:  
+
 **Note: preload your cart with atleast 1 item**
 
 1. Paste your token and chat id into **BB_slot.py** and run it
