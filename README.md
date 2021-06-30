@@ -1,4 +1,4 @@
-# BB_Slot_Finder_Telegram
+# Big Basket Slot Finder and Telegram Notifier
 Big Basket Slot finder with reminder sent via Telegram Bot
 
 Tested on Python 3.8
